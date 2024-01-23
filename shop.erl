@@ -1,8 +1,8 @@
 -module(shop).
--export([const/1])
+-export([cost/1]).
 
-const(oranges) -> 5;
-const(newspaper) -> 3;
-const(apples) -> 2;
-const(pears) -> 9;
-const(mild) -> 7.
+cost(oranges) -> 5;
+cost(newspaper) -> 3;
+cost(apples) -> 2;
+cost(pears) -> 9;
+cost(mild) -> 7.
