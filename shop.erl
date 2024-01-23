@@ -1,4 +1,4 @@
--module(shop)
+-module(shop).
 -export([const/1])
 
 const(oranges) -> 5;
